@@ -1,0 +1,514 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+    .container-desconto{
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .desconto{
+        width: 300px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .container-nomeMarca{
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .nomeMarca{
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+        font-size: 0.8em;
+    }
+
+    .backgroud-image > *:not(.conteiner-conteudo){
+        background-image: url(../img/wallpaper_overlay.jpeg);
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+    }
+
+    .container-conteudo h2{
+        padding-top: 100px;
+        width: 90%;
+        margin: 0 auto;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .container-conteudo p{
+        width: 90%;
+        margin: 0 auto;
+        color: white;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .destaque{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .destaque h3{
+        font-size: 2em;
+    }
+
+    .destaque p{
+        margin-top: 20px;
+    }
+
+    .container-tenis{
+        display: flex;
+        justify-content: center;
+        background-color: grey;
+        width: 90%;
+        height: 150px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .tenis img{
+        width: 250px;
+        height: 150px;
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 482px) and (max-width: 767px){
+
+    .container-desconto{
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .desconto{
+        width: 300px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .container-nomeMarca{
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .nomeMarca{
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+        font-size: 0.8em;
+    }
+
+    .backgroud-image > *:not(.conteiner-conteudo){
+        background-image: url(../img/wallpaper_overlay.jpeg);
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+    }
+
+    .container-conteudo h2{
+        padding-top: 100px;
+        width: 90%;
+        margin: 0 auto;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .container-conteudo p{
+        width: 90%;
+        margin: 0 auto;
+        color: white;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .destaque{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .destaque h3{
+        font-size: 2em;
+    }
+
+    .destaque p{
+        margin-top: 20px;
+    }
+
+    .grid-tenis{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container-tenis{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        width: 90%;
+        height: 150px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .tenis img{
+        width: 190px;
+        height: 100px;
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+    .container-desconto{
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .desconto{
+        width: 300px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .container-nomeMarca{
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .nomeMarca{
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+        font-size: 0.8em;
+    }
+
+    .backgroud-image > *:not(.conteiner-conteudo){
+        background-image: url(../img/wallpaper_overlay.jpeg);
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+    }
+
+    .container-conteudo h2{
+        padding-top: 100px;
+        width: 90%;
+        margin: 0 auto;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .container-conteudo p{
+        width: 90%;
+        margin: 0 auto;
+        color: white;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .destaque{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .destaque h3{
+        font-size: 2em;
+    }
+
+    .destaque p{
+        margin-top: 20px;
+    }
+
+    .grid-tenis{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container-tenis{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        width: 90%;
+        height: 150px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .tenis img{
+        width: 160px;
+        height: 100px;
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px){
+
+    .container-desconto{
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .desconto{
+        width: 300px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .container-nomeMarca{
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .nomeMarca{
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+        font-size: 0.8em;
+    }
+
+    .backgroud-image > *:not(.conteiner-conteudo){
+        background-image: url(../img/wallpaper_overlay.jpeg);
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+    }
+
+    .container-conteudo h2{
+        padding-top: 100px;
+        width: 90%;
+        margin: 0 auto;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .container-conteudo p{
+        width: 90%;
+        margin: 0 auto;
+        color: white;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .destaque{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .destaque h3{
+        font-size: 2em;
+    }
+
+    .destaque p{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .grid-tenis{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container-tenis{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        width: 90%;
+        height: 150px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .tenis img{
+        width: 160px;
+        height: 100px;
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 1281px){
+
+    .container-desconto{
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .desconto{
+        width: 300px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .container-nomeMarca{
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .nomeMarca{
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+        font-size: 0.8em;
+    }
+
+    .backgroud-image > *:not(.conteiner-conteudo){
+        background-image: url(../img/wallpaper_overlay.jpeg);
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+    }
+
+    .container-conteudo h2{
+        padding-top: 100px;
+        width: 90%;
+        margin: 0 auto;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .container-conteudo p{
+        width: 90%;
+        margin: 0 auto;
+        color: white;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .destaque{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .destaque h3{
+        font-size: 2em;
+    }
+
+    .destaque p{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .grid-tenis{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container-tenis{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        width: 90%;
+        height: 150px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .tenis img{
+        width: 160px;
+        height: 100px;
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
