@@ -1,4 +1,4 @@
-# Exeemplo de Loja da nike/Jordan
+# Exemplo de Loja da Nike/Jordan
 
 Este desafio foi pego no discord:
 
